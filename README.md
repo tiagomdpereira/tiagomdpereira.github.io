@@ -1,4 +1,4 @@
-# Hi, I'm Tiago Pereira 👋
+# Hi, I'm Tiago 👋
 **MSc. Data Science Student | BSc. Mechanical Engineering**
 **Data Science Intern @ CondAI**
 
