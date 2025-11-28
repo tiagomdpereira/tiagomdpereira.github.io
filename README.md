@@ -38,7 +38,7 @@ This portfolio showcases my engineering projects beyond the academic scope, with
 
 <br>
 
-### 2. Serverless IoT Notification System
+### 2. Serverless Notification System
 **The Challenge:** Architect a zero-maintenance, low-cost infrastructure to handle alerts from edge devices.
 
 [Image of AWS Architecture Diagram: CloudWatch -> Lambda -> Telegram API]
