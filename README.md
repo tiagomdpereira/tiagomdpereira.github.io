@@ -37,7 +37,7 @@ This portfolio showcases my engineering projects beyond the academic scope, with
 * **Optimization:** Applied **Post-training Quantization (Int8)** to compress the model without losing critical information.
 * **Result:** Achieved **94.1% test accuracy**with a final model size of just **82KB** (fitting easily within the 256KB RAM limit).
 
-[View Source Code](https://github.com/tiagomdpereira/keyword-spotting-edge-ai)
+[View Ultra-Low Latency Keyword Spotting Project Page](https://github.com/tiagomdpereira/keyword-spotting-edge-ai)
 
 <br>
 
@@ -50,7 +50,7 @@ This portfolio showcases my engineering projects beyond the academic scope, with
 * **Integration:** Connected system triggers to a **Telegram Bot** via API for instant mobile alerts.
 * **Result:** On the last Thursday of every month, I get a Telegram message reminding me to pay my karate bill.
 
-[Read Article & View Code](https://medium.com/@tiagomdpereira/how-to-create-a-reminder-telegram-bot-with-aws-lambda-aws-eventbridge-and-python-fc5a676d4c42)
+[View Article Serverless Reminder System](https://medium.com/@tiagomdpereira/how-to-create-a-reminder-telegram-bot-with-aws-lambda-aws-eventbridge-and-python-fc5a676d4c42)
 
 ---
 
