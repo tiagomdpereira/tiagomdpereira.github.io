@@ -1,10 +1,10 @@
 # Hi, I'm Tiago 👋
-**M.Sc. Data Science Student | B.Sc. Mechanical Engineering**
+**MSc. Data Science Student | BSc. Mechanical Engineering**
 **Data Science Intern @ CondAI**
 
 I am a Data Science student currently finalizing my Master's dissertation (Expected Completion: Jan 2026).
 
-This portfolio showcases my engineering projects beyond the academic scope, with a specific focus on the intersection of hardware and AI. I combine my mechanical engineering background with modern data science to build efficient, real-world systems.
+This portfolio showcases my engineering projects beyond the academic scope, with a specific focus on the intersection of hardware and AI.
 
 **Core Interests:** EdgeAI, TinyML, Machine Learning Engineering.
 
@@ -24,15 +24,17 @@ This portfolio showcases my engineering projects beyond the academic scope, with
 
 ---
 
-## 🛠 Featured Projects
+## 🛠 Projects
 
 ### 1. Ultra-Low Latency Keyword Spotting (TinyML)
 **The Challenge:** Deploy a real-time voice activation model on a battery-powered microcontroller with severe RAM constraints.
 
+<img src="keyword_spotting_project.png" alt="Keyword Spotting Project" width="700"/>
+
 * **Signal Processing:** Implemented a pipeline to convert raw audio into **MFCC spectrograms**, treating sound as a visual pattern for the model.
 * **Model Architecture:** Adapted **MobileNetV1-based DS-CNN** and **MobileNetV2** architectures, specifically optimized for the **Arduino Nano 33 BLE Sense**.
 * **Optimization:** Applied **Post-training Quantization (Int8)** to compress the model without losing critical information.
-* **Result:** Achieved **94.1% accuracy** with a final model size of just **82KB** (fitting easily within the 256KB RAM limit).
+* **Result:** Achieved **94.1% test accuracy**with a final model size of just **82KB** (fitting easily within the 256KB RAM limit).
 
 [View Source Code](https://github.com/tiagomdpereira/keyword-spotting-edge-ai)
 
@@ -41,7 +43,7 @@ This portfolio showcases my engineering projects beyond the academic scope, with
 ### 2. Serverless Notification System
 **The Challenge:** Architect a zero-maintenance, low-cost infrastructure to handle alerts from edge devices.
 
-[Image of AWS Architecture Diagram: CloudWatch -> Lambda -> Telegram API]
+<img src="reminder_project.png" alt="Serverless Notification Project" width="700"/>
 
 * **Architecture:** Built a scalable, event-driven backend using **AWS Lambda** (Serverless).
 * **Integration:** Connected system triggers to a **Telegram Bot** via API for instant mobile alerts.
@@ -59,5 +61,5 @@ This portfolio showcases my engineering projects beyond the academic scope, with
 *Focus: AI Engineering for unstructured information extraction.*
 
 * **The Problem:** Automating the extraction of structured data from complex, unstructured enterprise documents.
-* **The Solution:** Developing a hybrid pipeline utilizing **Deepseek OCR** and **LLMs** to extract entities and normalize them into strict JSON formats.
+* **The Solution:** Developing a hybrid pipeline utilizing **Deepseek OCR** and **LLMs** to extract values and normalize them into strict JSON formats.
 * **Engineering Takeaway:** This role allows me to write **production-grade code**, handle messy real-world data, and solve problems within enterprise architecture constraints.
