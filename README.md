@@ -1,6 +1,7 @@
 # Hi, I'm Tiago 👋
 **MSc. Data Science Student | BSc. Mechanical Engineering**
-**Data Science Intern @ CondAI**
+
+**Data Science Intern @ CondAI** *[June 2025 - Present]*
 
 I am a Data Science student currently finalizing my Master's dissertation (Expected Completion: Jan 2026).
 
