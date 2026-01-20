@@ -1,13 +1,11 @@
 # Hi, I'm Tiago 👋
 **MSc. Data Science Student | BSc. Mechanical Engineering**
 
-**Data Science Intern @ CondAI** *[June 2025 - Present]*
-
-I am a Data Science student currently finalizing my Master's dissertation (Expected Completion: Jan 2026).
+I am a Data Science student currently in the 2nd year (Expected Completion: Sep 2026).
 
 This portfolio showcases my engineering projects beyond the academic scope, with a specific focus on the intersection of hardware and AI.
 
-**Core Interests:** EdgeAI, TinyML, Machine Learning Engineering.
+**Core Interests:** Time Series Forecasting and Classification, Machine Learning, Deep Learning.
 
 <p align="left">
   <a href="https://www.linkedin.com/in/tiago-pereira-6284041a4/"><b>LinkedIn</b></a>
@@ -20,7 +18,7 @@ This portfolio showcases my engineering projects beyond the academic scope, with
 | **Domain** | **Tools & Frameworks** |
 | :--- | :--- |
 | **TinyML & Edge AI** | TensorFlow Lite, Quantization (Int8) |
-| **Data Science** | Python, TensorFlow, Digital Signal Processing (DSP), Pandas, Scikit-Learn |
+| **Data Science** | Python, SQL, TensorFlow, Time Series Analysis, Pandas, Scikit-Learn |
 | **Cloud & DevOps** | AWS Lambda, Azure (Blob Storage, DevOps), FastAPI, Docker, Telegram API |
 
 ---
