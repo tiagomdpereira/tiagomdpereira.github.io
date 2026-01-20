@@ -53,16 +53,3 @@ This portfolio showcases my engineering projects beyond the academic scope, with
 * **Result:** On the last Thursday of every month, I get a Telegram message reminding me to pay my karate bill.
 
 [View Article Serverless Reminder System](https://medium.com/@tiagomdpereira/how-to-create-a-reminder-telegram-bot-with-aws-lambda-aws-eventbridge-and-python-fc5a676d4c42)
-
----
-
-## 🔬 Professional Experience & Research
-
-### Intelligent Document Processing (M.Sc. Dissertation)
-**Role:** Data Science Intern @ **CondAI**
-
-*Focus: AI Engineering for unstructured information extraction.*
-
-* **The Problem:** Automating the extraction of structured data from complex, unstructured enterprise documents.
-* **The Solution:** Developing a hybrid pipeline utilizing **Deepseek OCR** and **LLMs** to extract values and normalize them into strict JSON formats.
-* **Engineering Takeaway:** This role allows me to write **production-grade code**, handle messy real-world data, and solve problems within enterprise architecture constraints.
