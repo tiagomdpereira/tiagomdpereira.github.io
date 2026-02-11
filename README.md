@@ -25,11 +25,7 @@ This portfolio showcases my engineering projects beyond the academic scope, with
 
 ## 🛠 Projects
 
-### 1. (IN DEVELOPMENT) E-commerce Data Analysis and Dashboard Development using Python, SQL and Streamlit
-
-[E-commerce Data Analysis and Dashboard Development Project Page](https://github.com/tiagomdpereira/brazilian-e-commerce-dashboard)
-
-### 2. Ultra-Low Latency Keyword Spotting (TinyML)
+### 1. Ultra-Low Latency Keyword Spotting (TinyML)
 **The Challenge:** Deploy a real-time voice activation model on a battery-powered microcontroller with severe RAM constraints.
 
 <img src="keyword_spotting_project.png" alt="Keyword Spotting Project" width="700"/>
@@ -43,7 +39,7 @@ This portfolio showcases my engineering projects beyond the academic scope, with
 
 <br>
 
-### 3. Serverless Notification System
+### 2. Serverless Notification System
 **The Challenge:** Architect a zero-maintenance, low-cost infrastructure to handle alerts from edge devices.
 
 <img src="reminder_project.png" alt="Serverless Notification Project" width="700"/>
