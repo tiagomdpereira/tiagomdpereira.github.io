@@ -3,9 +3,9 @@
 
 I am a Data Science student currently in the 2nd year (Expected Completion: Sep 2026).
 
-This portfolio showcases my engineering projects beyond the academic scope, with a specific focus on the intersection of hardware and AI.
+This portfolio showcases my engineering projects beyond the academic scope!
 
-**Core Interests:** Time Series Forecasting and Classification, Machine Learning, Deep Learning.
+**Core Interests:** Data Engineering & Machine Learning
 
 <p align="left">
   <a href="https://www.linkedin.com/in/tiago-pereira-6284041a4/"><b>LinkedIn</b></a>
@@ -17,15 +17,30 @@ This portfolio showcases my engineering projects beyond the academic scope, with
 
 | **Domain** | **Tools & Frameworks** |
 | :--- | :--- |
-| **TinyML & Edge AI** | TensorFlow Lite, Quantization (Int8) |
-| **Data Science** | Python, SQL, TensorFlow, Time Series Analysis, Pandas, Scikit-Learn |
-| **Cloud & DevOps** | AWS Lambda, Azure (Blob Storage, DevOps), FastAPI, Docker, Telegram API |
+| **Data Engineering** | SQL, Python, Airflow, PostgreSQL, Docker, docker-compose |
+| **Machine Learning** | TensorFlow, Time Series Analysis, Pandas, Scikit-Learn |
+| **Cloud & Others** | AWS Lambda, FastAPI, Docker, Telegram API |
 
 ---
 
 ## 🛠 Projects
 
-### 1. Ultra-Low Latency Keyword Spotting (TinyML)
+### 1. Basic Stock Data ETL Pipeline
+**The Challenge:** Build a ETL pipeline for data that pulls market data from the Finnhub API every 30 minutes and saves it to a PostgreSQL database using Apache Airflow for orchestration, scheduling and monitoring, and Docker for conteinerization.
+
+<img src="stock_data_airflow_postgresql_project.png" alt="Stock Data ETL Pipeline" width="700"/>
+
+* **Ingestion (Finnhub API)**: Automated data extraction from Finnhub on a 30-minute cadence, handling request/response parsing and preparing records for downstream processing.
+* **Orchestration (Apache Airflow)**: Implemented an Airflow DAG to coordinate the full workflow (extract → transform → load), with clear task boundaries, retries, and execution tracking via the Airflow UI.
+* **Transformation & Data Quality**: Added cleaning steps to ensure consistent schemas and types (e.g., timestamps, numeric fields), making the dataset ready for querying and analytics.
+* **Storage (PostgreSQL)**: Loaded processed data into PostgreSQL.
+* **Containerization (Docker / Compose)**: Containerized the stack so the entire pipeline can be spun up with minimal setup, ensuring consistent dependencies across environments.
+
+[View Basic Stock Data ETL Pipeline Repository](https://github.com/tiagomdpereira/stock_data_airflow_postgresql)
+
+<br>
+
+### 2. Ultra-Low Latency Keyword Spotting (TinyML)
 **The Challenge:** Deploy a real-time voice activation model on a battery-powered microcontroller with severe RAM constraints.
 
 <img src="keyword_spotting_project.png" alt="Keyword Spotting Project" width="700"/>
@@ -39,7 +54,7 @@ This portfolio showcases my engineering projects beyond the academic scope, with
 
 <br>
 
-### 2. Serverless Notification System
+### 3. Serverless Notification System
 **The Challenge:** Architect a zero-maintenance, low-cost infrastructure to handle alerts from edge devices.
 
 <img src="reminder_project.png" alt="Serverless Notification Project" width="700"/>
