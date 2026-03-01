@@ -35,6 +35,7 @@ This portfolio showcases my engineering projects beyond the academic scope!
 * **Transformation & Data Quality**: Added cleaning steps to ensure consistent schemas and types (e.g., timestamps, numeric fields), making the dataset ready for querying and analytics.
 * **Storage (PostgreSQL)**: Loaded processed data into PostgreSQL.
 * **Containerization (Docker / Compose)**: Containerized the stack so the entire pipeline can be spun up with minimal setup, ensuring consistent dependencies across environments.
+* **Git & GitHub:** For version control.
 
 [View Basic Stock Data ETL Pipeline Repository](https://github.com/tiagomdpereira/stock_data_airflow_postgresql)
 
