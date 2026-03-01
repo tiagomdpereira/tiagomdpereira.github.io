@@ -26,7 +26,7 @@ This portfolio showcases my engineering projects beyond the academic scope!
 ## 🛠 Projects
 
 ### 1. Basic Stock Data ETL Pipeline
-**The Challenge:** Build a ETL pipeline that pulls market data from the Finnhub API every 30 minutes and saves it to a PostgreSQL database using Apache Airflow for orchestration, scheduling and monitoring, and Docker for conteinerization.
+**The Challenge:** Build a ETL pipeline that pulls market data from the Finnhub API every 30 minutes and saves it to a PostgreSQL database using Apache Airflow for orchestration, scheduling and monitoring, and Docker for containerization.
 
 <img src="stock_data_airflow_postgresql_project.png" alt="Stock Data ETL Pipeline" width="700"/>
 
